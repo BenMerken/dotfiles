@@ -1,0 +1,8 @@
+#!/bin/sh
+
+# My personal shell aliases. Read on login.
+
+alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles --work-tree=$HOME'
+alias ll="ls -al"
+alias ls="ls --color=auto"
+alias vim="vim -u $HOME/.config/vim/vimrc"

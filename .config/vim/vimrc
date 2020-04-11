@@ -1,0 +1,3 @@
+" Always wrap long lines and add line numbers.
+set wrap
+set number
