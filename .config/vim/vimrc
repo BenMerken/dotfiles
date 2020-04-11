@@ -1,3 +1,17 @@
-" Always wrap long lines and add line numbers.
-set wrap
-set number
+" -------------
+" | Editor UI |
+" -------------
+
+set nocp		" Make sure my vim config is.
+set ignorecase	" Ignore case during search.
+set incsearch	" Highlight while typing during search.
+set ruler		" Add cursor position.
+set number		" Add line numbers.
+syntax on		" Enable syntax highlighting.
+
+" ----------------------
+" | Text-related stuff |
+" ----------------------
+
+set bs=2		" Allow over autoindent, line breaks and the start of insert.
+set tabstop=4	" Make tab count for four spaces.
