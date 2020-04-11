@@ -4,7 +4,6 @@
 
 # Aliases for my bootstrapping files and dotfiles.
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles --work-tree=$HOME'
-alias btstrp='/usr/bin/git --git-dir=$HOME/.linux-bootstrap --work-tree=$HOME/.linux-bootstrap'
 
 # Aliases for my file navigation commands.
 alias ll="ls -al"
