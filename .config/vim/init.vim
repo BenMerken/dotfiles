@@ -21,3 +21,9 @@ set tabstop=4	" Make tab count for four spaces.
 " -------------------
 
 set splitright	" Set the default vertical split to be to the right.
+
+" ----------------
+" | Key mappings |
+" ----------------
+
+
