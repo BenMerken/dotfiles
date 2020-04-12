@@ -16,4 +16,4 @@ export TERMINAL="bash"
 [ -f "$HOME/.aliases" ] && . "$HOME/.aliases" || echo "File $HOME/.aliases not found"
 
 # Set the prompt.
-PS1='[\u@\h \W]\$ '
+export PS1='\e[0;32m\u\e[m \e[0;33m\w\e[m \n\$ '
