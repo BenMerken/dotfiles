@@ -9,5 +9,9 @@ alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles --work-tree=$HOME'
 alias ll="ls -al"
 alias ls="ls --color=auto"
 
-# Have vim read my vimrc file from the ~/.config folder.
-alias vim="vim -u $HOME/.config/vim/vimrc"
+# Have vim and nvim read my vimrc file from the ~/.config folder.
+alias vim="vim -u $HOME/.config/vim/init.vim"
+alias nvim="nvim -u $HOME/.config/vim/init.vim"
+
+# Aliases for convenience
+alias poff="poweroff"
