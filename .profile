@@ -5,15 +5,23 @@
 # Date: April 11, 2020
 # Licence: GPL v3.0
 
-export PATH="$PATH:$HOME/.scripts"	# Add '~/.scripts' to $PATH.
-export CONFIG="$HOME/.config"
+export PATH="$PATH:$HOME/.scripts"
 export EDITOR="vim"
 export TERMINAL="bash"
 export CLICOLOR=1
 export LS_COLORS="di=34:ln=25:so=32:pi=33:ex=31:bd=34"
 
+# Set the base locations for the condifurations of the programs that I use.
+# For this, I (loosely) use the XDG Base Directory specification.
+export XDG_CONFIG_HOME="$HOME/.config"
+export XDG_CACHE_HOME="$HOME/.cache"
+export XDG_DATA_HOME="$HOME/.local/share"
+export ZDOTDIR="$XDG_CONFIG_HOME/zsh"
+export VIM_DOT_DIR="$XDG_CONFIG_HOME/vim"
+export URXVT_DOT_DIR="$XDG_CONFIG_HOME/urxvt"
+
 # Read aliases from the ~/.aliases file.
 [ -f "$HOME/.aliases" ] && . "$HOME/.aliases" || echo "File $HOME/.aliases not found"
 
-# Source the Bash configuration.
-. $HOME/.bashrc
+# When the terminal is /dev/tty1 (which it is by default), and the Xorg service isn't running yet, start the graphical environment.
+[ "$(tty)" = "/dev/tty1" ] && ! ps -e | grep -qw Xorg && exec startx
