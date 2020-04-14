@@ -5,6 +5,8 @@
 # Date: April 14, 2020
 # License: GPL v3.0
 
-# Set the prompt.
-export PS1='\e[0;32m\u\e[m \e[0;33m\w\e[m \n\$ '
+# If not running interactively, do nothing.
+[ -z "$PS1" ] && return
 
+# Set the prompt.
+[ $TERM == "linux" ] && export PS1='\033[1;95m[ \u@\h \033[0;32m\w\033[95m ]\033[0;32m \$\033[m '
