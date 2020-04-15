@@ -6,6 +6,8 @@
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles --work-tree=$HOME'
 
 # Aliases for my file navigation commands.
+alias ..="cd .."
+alias ...="cd ../.."
 alias ll="ls -al"
 alias ls="ls --color=auto"
 
