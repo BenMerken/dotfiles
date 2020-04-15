@@ -7,7 +7,7 @@
 
 export PATH="$PATH:$HOME/.scripts"
 export EDITOR="vim"
-export TERMINAL="bash"
+export TERMINAL="rxvt-unicode-256color"
 export CLICOLOR=1
 export LS_COLORS="di=34:ln=25:so=32:pi=33:ex=31:bd=34"
 
@@ -23,5 +23,5 @@ export URXVT_DOT_DIR="$XDG_CONFIG_HOME/urxvt"
 # Read aliases from the ~/.aliases file.
 [ -f "$HOME/.aliases" ] && . "$HOME/.aliases" || echo "File $HOME/.aliases not found"
 
-# When the terminal is /dev/tty1 (which it is by default), and the Xorg service isn't running yet, start the graphical environment.
+# When the terminal is /dev/tty1 (which it is by default), and the X server isn't running yet, start the graphical environment.
 [ "$(tty)" = "/dev/tty1" ] && ! ps -e | grep -qw Xorg && exec startx
