@@ -1,22 +1,15 @@
 " ----------
 " | Basics |
 " ----------
-set nocp		" Disable compatibility with vi, to enable vim's full feature set.
-set ignorecase	" Ignore case during search.
-set incsearch	" Highlight while typing during search.
-set ruler		" Add cursor position.
-set nu rnu		" Add relative line numbers by default.
-syntax on		" Enable syntax highlighting.
+set nocp					" Disable compatibility with vi, to enable vim's full feature set.
+set ignorecase					" Ignore case during search.
+set incsearch					" Highlight while typing during search.
+set ruler					" Add cursor position.
+set nu rnu					" Add relative line numbers by default.
+
+filetype plugin indent on			" Enable to load indent files for recognized filetypes.
+syntax on					" Enable syntax highlighting.
  
-" ----------
-" | Cursor |
-" ----------
-
-if &term == 'xterm-256color' || &term == 'screen-256color'
-	let &t_SI = "\<Esc>[5 q"
-	let &t_EI = "\<Esc>[1 q"
-endif
-
 " ----------------------
 " | Text-related stuff |
 " ----------------------

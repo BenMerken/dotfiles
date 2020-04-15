@@ -24,9 +24,9 @@ no	gO		O<ESC>j
 " ------------------------------------------------------------
 " | Leader key bindings for quotes, parantheses and brackets |
 " ------------------------------------------------------------
-
 imap	<leader>'	''<ESC>i
 imap	<leader>"	""<ESC>i
 imap	<leader>[	[]<ESC>i
 imap	<leader>(	()<ESC>i
-
+imap	<leader>{	{}<ESC>i
+imap	<leader><	<><ESC>i
