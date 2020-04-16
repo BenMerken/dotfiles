@@ -20,10 +20,10 @@
 
 ! --- Fonts ---
 
-*.font: xft:Iosevka:style=Regular:size=8
-*.boldFont: xft:Iosevka:style=Bold:size=8
-*.italicFont: xft:Iosevka:style=Italic:size=8
-*.boldItalicFont: xft:Iosevka:style=Bold Italic:size=8
+*.font: xft:Dejavu Sans Mono:style=Regular:pixelsize=15
+*.boldFont: xft:Dejavu Sans Mono:style=Bold:pixelsize=15
+*.italicFont: xft:Dejavu Sans Mono:style=Italic:pixelsize=15
+*.boldItalicFont: xft:Dejavu Sans Mono:style=Bold Italic:pixelsize=15
 
 ! ---------
 ! | urxvt |
@@ -47,9 +47,9 @@ URxvt.matcher.button: 1
 URxvt.scrollBar: false
 URxvt.scrollTtyOutput: false
 URxvt.geometry: 92x24
-URxvt.internalBorder: 24
+URxvt.internalBorder: 0
 URxvt.depth: 24
-URxvt.letterSpace: -2
+!URxvt.letterSpace: -2
 URxvt.lineSpace: 0
 URxvt.cursorBlink: true
 URxvt.secondaryScreen: 1
