@@ -38,4 +38,3 @@ shopt -s autocd # Enable autocding = just typing the name of a dir to cd.
 # Set the prompt.
 
 [[ $TERM =~ "rxvt" ]] && export PS1='\[\033[1;95m\][ \u@\h \[\033[0;32m\]\w\[\033[95m\] ]\[\033[0;32m\] \$\[\033[m\] '
-PROMPT_COMMAND='echo -e "\033[?6;0;0c"'
