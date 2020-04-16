@@ -28,17 +28,36 @@
 ! ---------
 ! | urxvt |
 ! ---------
+! --- Extensions ---
+
+URxvt.perl-ext-common: default,matcher,resize-font,clipboard,url-select,keyboard-select
+URxvt.iso14755: false
+URxvt.copyCommand: xclip -i -selection clipboard
+URxvt.pasteCommand: xclip -o -selection clipboard
+URxvt.keysym.M-c: perl:clipboard:copy
+URxvt.keysym.M-v: perl:clipboard:paste
+URxvt.url-launcher: $BROWSER
+URxvt.underlineURLs: true
+URxvt.matcher.button: 1
 
 ! --- Setup ---
+
+! - UI -
 
 URxvt.scrollBar: false
 URxvt.scrollTtyOutput: false
 URxvt.geometry: 92x24
 URxvt.internalBorder: 24
 URxvt.depth: 24
-URxvt.letterSpace: 0
+URxvt.letterSpace: -2
 URxvt.lineSpace: 0
 URxvt.cursorBlink: true
 URxvt.secondaryScreen: 1
 URxvt.secondaryScroll: 0
 
+! - Fontsize -
+
+URxvt.resize-font.equal: C-equal
+URxvt.resize-font.smaller: C-Down
+URxvt.resize-font.bigger: C-Up
+URxvt.resize-font.step: 1
