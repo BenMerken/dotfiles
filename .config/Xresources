@@ -4,7 +4,7 @@
 ! Date: April 15, 2020
 
 ! -----------
-! | General | 
+! | General |
 ! -----------
 
 ! --- Opacity ---
@@ -15,7 +15,7 @@
 ! --- Color scheme ---
 
 *.background: #000000
-*.foreground: #93A1A1
+*.foreground: #00FF00
 *.cursorColor: #00FF00
 
 ! --- Fonts ---
@@ -26,12 +26,12 @@
 *.boldItalicFont: xft:Iosevka:style=Bold Italic:size=8
 
 ! ---------
-! | urxvt | 
+! | urxvt |
 ! ---------
 
 ! --- Setup ---
 
-URxvt.scrollBar: false 
+URxvt.scrollBar: false
 URxvt.scrollTtyOutput: false
 URxvt.geometry: 92x24
 URxvt.internalBorder: 24

@@ -1,4 +1,3 @@
-
 # Bash config file.
 # Author: Ben Merken
 # Date: April 14, 2020
@@ -14,13 +13,13 @@
 # Function to display all available base  colors.
 
 colors() {
-	local fg bg vals seq0 
+	local fg bg vals seq0
 	for fg in {30..37}; do
 		for bg in {40..47}; do
 			fg=${fg#37}
 			bg=${bg#40}
-		
-			vals="${fg:+$fg;}${bg}"		
+
+			vals="${fg:+$fg;}${bg}"
 			vals=${vals%%;}
 
 			seq0="${vals:+\e[${vals}m}"

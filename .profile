@@ -9,7 +9,7 @@ export PATH="$PATH:$HOME/.scripts"
 export EDITOR="vim"
 export TERMINAL="urxvt"
 export CLICOLOR=1
-export LS_COLORS="di=34:ln=25:so=32:pi=33:ex=31:bd=34"
+export LS_COLORS="di=1;34:ln=25:so=32:pi=33:ex=31:bd=34"
 
 # Set the base locations for the condifurations of the programs that I use.
 # For this, I (loosely) use the XDG Base Directory specification.
