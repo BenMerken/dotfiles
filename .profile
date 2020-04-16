@@ -8,6 +8,7 @@
 export PATH="$PATH:$HOME/.scripts"
 export EDITOR="vim"
 export TERMINAL="urxvt"
+export BROWSER="firefox"
 export CLICOLOR=1
 export LS_COLORS="di=1;34:ln=25:so=32:pi=33:ex=31:bd=34"
 
