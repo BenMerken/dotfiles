@@ -1,0 +1,8 @@
+#!/bin/sh
+
+# Run on display manager logging you in.
+# In my config, this file is also sourced during startup of the X server.
+
+# If you'd ever need to run a command on display manager login or X server startup, put it here.
+
+[ -f ${XDG_CONFIG_HOME:-$HOME/.config}/Xresources ] xrdb -merge  ${XDG_CONFIG_HOME:-$HOME/.config}/Xresources &

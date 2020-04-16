@@ -1,0 +1,44 @@
+! X resources file. This file is used for setting configuration parameters for X client applications.
+
+! Author: Ben Merken
+! Date: April 15, 2020
+
+! -----------
+! | General | 
+! -----------
+
+! --- Opacity ---
+! On a scale from 0.0 to 1.0
+
+*.alpha: 0.8
+
+! --- Color scheme ---
+
+*.background: #000000
+*.foreground: #93A1A1
+*.cursorColor: #00FF00
+
+! --- Fonts ---
+
+*.font: xft:Iosevka:style=Regular:size=8
+*.boldFont: xft:Iosevka:style=Bold:size=8
+*.italicFont: xft:Iosevka:style=Italic:size=8
+*.boldItalicFont: xft:Iosevka:style=Bold Italic:size=8
+
+! ---------
+! | urxvt | 
+! ---------
+
+! --- Setup ---
+
+URxvt.scrollBar: false 
+URxvt.scrollTtyOutput: false
+URxvt.geometry: 92x24
+URxvt.internalBorder: 24
+URxvt.depth: 24
+URxvt.letterSpace: 0
+URxvt.lineSpace: 0
+URxvt.cursorBlink: true
+URxvt.secondaryScreen: 1
+URxvt.secondaryScroll: 0
+
