@@ -7,7 +7,7 @@
 
 export PATH="$PATH:$HOME/.scripts"
 export EDITOR="vim"
-export TERMINAL="rxvt-unicode-256color"
+export TERMINAL="urxvt"
 export CLICOLOR=1
 export LS_COLORS="di=34:ln=25:so=32:pi=33:ex=31:bd=34"
 
