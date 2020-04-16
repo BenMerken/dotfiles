@@ -20,10 +20,10 @@
 
 ! --- Fonts ---
 
-*.font: xft:Dejavu Sans Mono:style=Regular:pixelsize=15
-*.boldFont: xft:Dejavu Sans Mono:style=Bold:pixelsize=15
-*.italicFont: xft:Dejavu Sans Mono:style=Italic:pixelsize=15
-*.boldItalicFont: xft:Dejavu Sans Mono:style=Bold Italic:pixelsize=15
+*.font: xft:monospace:style=Regular:size=8
+*.boldFont: xft:monospace:style=Bold:size=8
+*.italicFont: xft:monospace:style=Italic:size=8
+*.boldItalicFont: xft:monospace:style=Bold Italic:size=8
 
 ! ---------
 ! | urxvt |
@@ -49,7 +49,7 @@ URxvt.scrollTtyOutput: false
 URxvt.geometry: 92x24
 URxvt.internalBorder: 0
 URxvt.depth: 24
-!URxvt.letterSpace: -2
+URxvt.letterSpace: 0
 URxvt.lineSpace: 0
 URxvt.cursorBlink: true
 URxvt.secondaryScreen: 1
@@ -58,6 +58,6 @@ URxvt.secondaryScroll: 0
 ! - Fontsize -
 
 URxvt.resize-font.equal: C-equal
-URxvt.resize-font.smaller: C-Down
-URxvt.resize-font.bigger: C-Up
+URxvt.resize-font.smaller: C-j
+URxvt.resize-font.bigger: C-k
 URxvt.resize-font.step: 1
