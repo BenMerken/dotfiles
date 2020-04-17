@@ -5,7 +5,7 @@
 # Date: April 11, 2020
 # Licence: GPL v3.0
 
-export PATH="$PATH:$HOME/.scripts"
+export PATH="$PATH:$HOME/.local/bin"
 export EDITOR="vim"
 export TERMINAL="urxvt"
 export BROWSER="firefox"

@@ -49,7 +49,7 @@ URxvt.scrollTtyOutput: false
 URxvt.geometry: 92x24
 URxvt.internalBorder: 0
 URxvt.depth: 24
-URxvt.letterSpace: 0
+URxvt.letterSpace: -1
 URxvt.lineSpace: 0
 URxvt.cursorBlink: true
 URxvt.secondaryScreen: 1

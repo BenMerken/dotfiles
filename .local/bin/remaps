@@ -1,0 +1,5 @@
+!#/bin/sh
+
+# Remaps keyboard on X server startup.
+
+xset r rate 300 50
