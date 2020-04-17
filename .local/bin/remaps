@@ -1,4 +1,4 @@
-!#/bin/sh
+#!/bin/sh
 
 # Remaps keyboard on X server startup.
 
