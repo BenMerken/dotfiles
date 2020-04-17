@@ -6,6 +6,8 @@
 # If you'd ever need to run a command on display manager login or X server startup, put it here.
 
 [ -f ${XDG_CONFIG_HOME:-$HOME/.config}/Xresources ] && xrdb ${XDG_CONFIG_HOME:-$HOME/.config}/Xresources &
+
+xrandr --current | grep 1920x1440 > /dev/null && xrandr -s 1920x1440
 [ -f "$HOME/.local/background" ] && feh --bg-scale $HOME/.local/background
 remaps
 xcompmgr -c -C -t-5 -l-5 -r4.2 -o.55 & # Run the xcompmgr compositor. Mainly used to create transparancy effect.
