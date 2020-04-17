@@ -23,6 +23,8 @@
 
 ! --- Colors ---
 
+URxvt.transparent: true
+URxvt.shading: 20
 URxvt.background: [70]$col0
 URxvt.foreground: $col2
 
