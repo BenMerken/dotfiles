@@ -1,0 +1,48 @@
+#define $col0	#3F3E3B
+#define $col8	#7F7F83
+#define $col1	#B36B65
+#define $col9	#EFA29B
+#define $col2	#4F8C61
+#define $col10	#86C596
+#define $col3	#8D7E45
+#define $col11	#C7B679
+#define $col4	#6181B8
+#define $col12	#9AB9F3
+#define $col5	#A46D9D
+#define $col13	#DFA4D7
+#define $col6	#0E8E9A
+#define $col14	#5EC7D4
+#define $col7	#B6B7BB
+#define $col15	#FEFFFF
+
+!! black
+.*color0:	$col0
+.*color8:	$col8
+
+!! red
+.*color1:	$col1
+.*color9:	$col9
+
+!! green
+.*color2:	$col2
+.*color10:	$col10
+
+!! yellow
+.*color3:	$col3
+.*color11:	$col11
+
+!! blue
+.*color4:	$col4
+.*color12:	$col12
+
+!! magenta
+.*color5:	$col5
+.*color13:	$col13
+
+!! cyan
+.*color6:	$col6
+.*color14:	$col14
+
+!! white
+.*color7:	$col7
+.*color15:	$col15

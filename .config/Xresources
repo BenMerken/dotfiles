@@ -3,20 +3,12 @@
 ! Author: Ben Merken
 ! Date: April 15, 2020
 
-! -----------
-! | General |
-! -----------
+! -----------------
+! | Color Schemes |
+! -----------------
 
-! --- Opacity ---
-! On a scale from 0.0 to 1.0
-
-*.alpha: 0.8
-
-! --- Color scheme ---
-
-*.background: #000000
-*.foreground: #00FF00
-*.cursorColor: #00FF00
+!#include "Xresources.d/colors/light"
+#include "Xresources.d/colors/dark"
 
 ! --- Fonts ---
 
@@ -28,6 +20,12 @@
 ! ---------
 ! | urxvt |
 ! ---------
+
+! --- Colors ---
+
+URxvt.background: [70]$col0
+URxvt.foreground: $col2
+
 ! --- Extensions ---
 
 URxvt.perl-ext-common: default,matcher,resize-font,clipboard,url-select,keyboard-select
@@ -49,7 +47,7 @@ URxvt.scrollTtyOutput: false
 URxvt.geometry: 92x24
 URxvt.internalBorder: 0
 URxvt.depth: 24
-URxvt.letterSpace: -1
+URxvt.letterSpace: 0
 URxvt.lineSpace: 0
 URxvt.cursorBlink: true
 URxvt.secondaryScreen: 1
