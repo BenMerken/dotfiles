@@ -6,7 +6,7 @@
 # Licence: GPL v3.0
 
 export PATH="$PATH:$HOME/.local/bin"
-export EDITOR="vim"
+export EDITOR="nvim"
 export TERMINAL="urxvt"
 export BROWSER="firefox"
 export CLICOLOR=1
