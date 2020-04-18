@@ -20,6 +20,7 @@ set $hibernate sudo -A systemctl hibernate
 for_window [class="^.*"] border pixel 1
 gaps inner $inner_gaps
 gaps outer $outer_gaps
+font pango:mono 5
 
 # --- Bindings ---
 
@@ -187,8 +188,8 @@ bindsym $mod+r mode "resize"
 # --- i3bar ---
 
 bar {
-		font pango:mono 5
-        status_command i3status
+		font pango:mono 8
+		status_command i3status
 		position top
 		mode dock
 		separator_symbol  " "
