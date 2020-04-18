@@ -15,37 +15,37 @@
 #define $col7	#B7B9BB
 #define $col15	#E4E6E9
 
-.*background:	#1D1F21
-.*foreground:	#9C9C9C
+*.background:	#1D1F21
+*.foreground:	#9C9C9C
 
 !! black
-.*color0:	$col0
-.*color8:	$col8
+*.color0:	$col0
+*.color8:	$col8
 
 !! red
-.*color1:	$col1
-.*color9:	$col9
+*.color1:	$col1
+*.color9:	$col9
 
 !! green
-.*color2:	$col2
-.*color10:	$col10
+*.color2:	$col2
+*.color10:	$col10
 
 !! yellow
-.*color3:	$col3
-.*color11:	$col11
+*.color3:	$col3
+*.color11:	$col11
 
 !! blue
-.*color4:	$col4
-.*color12:	$col12
+*.color4:	$col4
+*.color12:	$col12
 
 !! magenta
-.*color5:	$col5
-.*color13:	$col13
+*.color5:	$col5
+*.color13:	$col13
 
 !! cyan
-.*color6:	$col6
-.*color14:	$col14
+*.color6:	$col6
+*.color14:	$col14
 
 !! white
-.*color7:	$col7
-.*color15:	$col15
+*.color7:	$col7
+*.color15:	$col15
