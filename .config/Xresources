@@ -8,7 +8,8 @@
 ! -----------------
 
 !#include "Xresources.d/colors/light"
-#include "Xresources.d/colors/dark"
+!#include "Xresources.d/colors/dark"
+#include "Xresources.d/colors/black-orange"
 
 ! --- Fonts ---
 
@@ -21,12 +22,10 @@
 ! | urxvt |
 ! ---------
 
-! --- Colors ---
+! --- Transparency ---
 
 URxvt.transparent: true
 URxvt.shading: 20
-URxvt.background: $col0
-URxvt.foreground: $col2
 
 ! --- Extensions ---
 
